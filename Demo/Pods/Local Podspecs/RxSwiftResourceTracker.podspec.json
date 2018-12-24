@@ -1,0 +1,30 @@
+{
+  "name": "RxSwiftResourceTracker",
+  "version": "1.0.0",
+  "summary": "Find memory leaks in your iOS app at develop time.",
+  "homepage": "https://github.com/Zepo/MLeaksFinder",
+  "license": "MIT",
+  "authors": {
+    "Zeposhe": "zeposhe@163.com"
+  },
+  "source": {
+    "git": "git@github.com:bupojung/MLeaksFinder.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RxSwiftResourceTracker/**/*",
+  "public_header_files": [
+    "RxSwiftResourceTracker/RxSwiftResourceTracker.h",
+    "RxSwiftResourceTracker/UIViewController+RxTracker.h"
+  ],
+  "dependencies": {
+    "RxSwift": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS[config=Debug]": "$(inherited) -D TRACE_RESOURCES"
+  }
+}

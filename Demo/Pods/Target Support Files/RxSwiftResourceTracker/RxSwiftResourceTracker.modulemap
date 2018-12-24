@@ -1,0 +1,6 @@
+framework module RxSwiftResourceTracker {
+  umbrella header "RxSwiftResourceTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
