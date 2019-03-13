@@ -1,0 +1,2 @@
+language: swift
+xcodebuild -workspace RxSwiftResourceTracker.xcworkspace -scheme RxSwifftResourceTracker -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
