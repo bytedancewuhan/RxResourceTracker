@@ -1,3 +1,4 @@
-os: macos
 language: swift
-xcodebuild -workspace RxSwiftResourceTracker.xcworkspace -scheme RxSwifftResourceTracker -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+xcode_project: RxSwifftResourceTracker.xcworkspace # path to your xcodeproj folder
+xcode_scheme: RxSwifftResourceTracker
+xcode_destination: platform=iOS
